@@ -1,0 +1,53 @@
+priority,site,domain,category,opt_out_url,method,needs,also_covers,removal_time,notes
+1,FastPeopleSearch,fastpeoplesearch.com,people-search,https://www.fastpeoplesearch.com/optout,"Web form + CAPTCHA, then an emailed link (valid ~24h) opens the opt-out form","Name, email, listing URL; form must match the record; authorized-agent option","Confi-Chek network; claims to cover sister sites (unverified, still check each)",~3 days,Check the reverse-phone page too; it clears when linked person records are removed
+1,TruePeopleSearch,truepeoplesearch.com,people-search,https://www.truepeoplesearch.com/removal,Web form with several CAPTCHAs,"Name, city/state, email; select each record",TruePeopleSearch.com only (not the unrelated .net site),~3 days,Also check its reverse-phone results page; may show property parcel number
+1,FastBackgroundCheck,fastbackgroundcheck.com,people-search,https://www.fastbackgroundcheck.com/optout,"Email + name + CAPTCHA, then emailed link to the form","Listing URL, name, email",Confi-Chek network,~3 days,
+1,AdvancedBackgroundChecks,advancedbackgroundchecks.com,people-search,https://www.advancedbackgroundchecks.com/opt-out,"Name + email, then emailed link (~24h); phone option on site","First/middle/last name, email; state your state of residence if it has a privacy law",Also clears its reverse-phone page,,
+1,CyberBackgroundChecks,cyberbackgroundchecks.com,people-search,https://www.cyberbackgroundchecks.com/removal,Web form (record lookup + email),"Listing URL, email",Confi-Chek network,,Footer also links /do-not-sell; often behind a Cloudflare check
+1,PeopleSearchNow,peoplesearchnow.com,people-search,https://www.peoplesearchnow.com/opt-out,"Name + email + CAPTCHA, emailed link (~24h), then a form matching the record",Form must match the record,Shares record IDs with USPhoneBook (submit both),,
+1,USPhoneBook,usphonebook.com,people-search,https://www.usphonebook.com/removal,"Name + email + CAPTCHA, emailed link (~24h), then a form matching the record",If it hangs: email support+optout@usphonebook.com; authorized-agent option,,,Check its phone-search page too
+1,SearchPeopleFree,searchpeoplefree.com,people-search,https://www.searchpeoplefree.com/opt-out,"Name + email + CAPTCHA; after email check you get a 30-minute removal session","Search by name, phone, address and email; remove each record",Includes its phone-lookup pages,~3 days,
+1,SmartBackgroundChecks,smartbackgroundchecks.com,people-search,https://www.smartbackgroundchecks.com/remove,"Name + email + CAPTCHA, emailed link (~24h), then a form",Form must match the record,Reported to also remove PeopleFinders (unverified),,
+1,FamilyTreeNow,familytreenow.com,people-search,https://www.familytreenow.com/optout,Web form with CAPTCHA; find the record by search,"Search, select record, confirm",Includes genealogy results pages,,
+1,Whitepages,whitepages.com,people-search,https://www.whitepages.com/suppression-requests,Web form + automated phone verification call,Listing URL; a working phone for the call (Google Voice works),"411.com (same database); its reverse-phone page",,
+1,Spokeo,spokeo.com,people-search,https://www.spokeo.com/optout,"Web form, one listing URL per request, then email confirmation link","Listing URL + email","AnyWho, FreePeopleDirectory, PeopleWin, family.me (not ThatsThem)",24-48 hours,Reverse-phone pages list household members; they need their own opt-outs
+1,ThatsThem,thatsthem.com,people-search,https://thatsthem.com/optout,Web form,"Record URL, email; opt out phone, email and name records separately",ThatsThem only,,Skip the ID-protection upsell
+1,PeopleFinders,peoplefinders.com,people-search,https://www.peoplefinders.com/opt-out,Web form + emailed link (~24h) + record suppression form,State of residence,PrivateEye and PublicRecordsNow keep separate lists,,
+1,"PeopleConnect (Intelius, TruthFinder, Instant Checkmate, US Search)",peopleconnect.us,people-search,https://suppression.peopleconnect.us/login,Web form + email verification,"Email, full legal name, DOB, select the record",All four brands + PeopleFinder.com,,Paywalled for searching; delete any old customer account there too
+1,BeenVerified,beenverified.com,people-search,https://www.beenverified.com/svc/optout/search/optouts,"Search, select record, verify by email",One opt-out per email address (email support for more),"NumberGuru, ReversePhone (not PeopleLooker, PeopleSmart, Ownerly, NeighborWho)",,Separate property opt-out: /svc/optout/search/optouts/property
+1,MyLife,mylife.com,people-search,https://www.mylife.com/privacyrequest,"Web form, or email privacy@mylife.com",Profile URL + name; avoid uploading ID,,10-15 days,
+1,USA People Search,usa-people-search.com,people-search,https://www.usa-people-search.com/removal,"Name + email + CAPTCHA, emailed link (~24h), then a form",Form must match the record; authorized-agent option,Confi-Chek network,,
+1,Sync.me,sync.me,caller-id,https://sync.me/unsubscribe/,'Remove My Info' web form,"Name, email, phone with +1",,~24 hours,
+1,Truecaller,truecaller.com,caller-id,https://www.truecaller.com/unlisting,Web form + CAPTCHA,Phone with country code; deactivate any Truecaller account first,,~24 hours,Cannot be reversed
+2,Radaris,radaris.com,people-search,https://radaris.com/control/privacy,Web form; may require account,"Listing URL, email",,,Often blocks automated access; check by hand
+2,NumLookup,numlookup.com,caller-id,https://www.numlookup.com/opt_out,Web form: do both the PHONE and NAME tabs,Phone + CAPTCHA; fallback hello@numlookup.com,,2-4 weeks,
+2,PrivateEye / PublicRecordsNow,privateeye.com,people-search,https://privateeye.com/removal,"Search the record, then complete the emailed removal form",,PeopleFinders siblings with their own lists,,Also https://publicrecordsnow.com/removal
+2,PeopleLooker,peoplelooker.com,people-search,https://www.peoplelooker.com/svc/optout/search/optouts,Web form + email verification,"Search, select, email link",PeopleLooker only,,
+2,PeopleSmart,peoplesmart.com,people-search,https://www.peoplesmart.com/svc/optout/search/,Web form + email verification + CAPTCHA,"Name, city, state; extra records via privacy@peoplesmart.com",PeopleSmart only,~24 hours,
+2,Ownerly,ownerly.com,property,https://www.ownerly.com/svc/optout/search/optouts,Web form,Property address + email,,,
+2,NeighborWho,neighborwho.com,property,https://www.neighborwho.com/svc/optout/search/,Web form,Address + email,,,
+2,Nuwber,nuwber.com,people-search,https://nuwber.com/removal/link,"Web form, or email screenshots to support@nuwber.com",Person URL + email,,,Has gone offline at times; recheck
+2,CheckPeople,checkpeople.com,people-search,https://checkpeople.com/opt-out,"Suppression center: enter email, follow the verification link",May ask DOB and full legal name,,,
+2,ZabaSearch / Addresses.com,zabasearch.com,people-search,https://www.zabasearch.com/block_records/,Web form,Record details,Intelius family,,Also https://www.addresses.com/optout.php
+2,AddressSearch.com,addresssearch.com,email-directory,https://www.addresssearch.com/add-update-remove.php,"Find the listing, then use its Remove option",,,,
+2,IDCrawl,idcrawl.com,people-search,https://www.idcrawl.com/opt-out,Web form,Profile URL + email,,,JavaScript-only; needs a real browser
+2,InfoTracer,infotracer.com,people-search,https://infotracer.com/optout/,"Web form, mail or fax","Name, address, email",,,
+2,Hiya,hiya.com,caller-id,https://hiyahelp.zendesk.com/hc/en-us/requests/new,Caller-ID removal request; deletion by email to DPO@hiya.com,Phone number,Powers Samsung Smart Call,up to 30 days,
+2,CallApp,callapp.com,caller-id,https://callapp.com/how-to/unlist-phone-number,Web form + confirmation email,Number with +1,,,Unlisting is not deletion; deletion via support@callapp.com
+2,Eyecon,eyecon-app.com,caller-id,https://www.eyecon-app.com/privacy-policy/,Email privacy@instabridge.com,Phone number; ask for unlisting and deletion,,,
+2,Spy Dialer,spydialer.com,caller-id,https://www.spydialer.com/consumers/,Phone line listed on the page (web form has been unreliable),,,,
+2,Acxiom,acxiom.com,marketing-broker,https://www.acxiom.com/optout/,Web form + email link; separate delete portal,"Email for opt-out; name, address, DOB, email for delete",,,Do both opt-out and delete
+2,LexisNexis Risk Solutions,lexisnexis.com,marketing-broker,https://consumer.risk.lexisnexis.com/opt,"Web form, mail or phone","Name, address, DOB",,,Pair with the LexisNexis freeze: https://consumer.risk.lexisnexis.com/freeze
+2,Epsilon,epsilon.com,marketing-broker,https://legal.epsilon.com/dsr,Web form or phone,Identity verification,,,Choose delete + opt out of sale
+2,Experian Marketing,experian.com,marketing-broker,https://www.experian.com/privacy/opting_out,"Separate forms for mail, telemarketing, email, ads, preapproved offers",,,,Separate from the credit freeze
+2,Equifax marketing (IXI),equifax.com,marketing-broker,https://myprivacy.equifax.com/,Web portal,Identity details,"IXI, IntelliReal and affiliates",~15 days,
+2,TransUnion marketing,transunion.com,marketing-broker,https://www.transunion.com/consumer-privacy,Web portal,"Opt out of sale/sharing, targeted ads, profiling; request deletion",,,
+2,Data Axle,data-axle.com,marketing-broker,https://www.data-axle.com/do-not-sell-my-data/,Do Not Sell form or privacyteam@data-axle.com,"Name, address, email, phone; CAPTCHA",,~9 days,
+3,OkCaller,okcaller.com,caller-id,(on-page 'Edit Your Listing'),Manage or opt out the number on the listing page,Google login,,,Also ask the carrier to opt the line out of the caller-name (CNAM) database
+3,ScamCallCheck,scamcallcheck.com,caller-id,https://scamcallcheck.com/remove,'Request a review or removal' form,Choose 'An individual concerned by content on this page',,,
+3,CallerSmart,callersmart.com,caller-id,https://callersmart.com/opt-out,Web form (URL unconfirmed),Phone + email,,,
+3,CocoFinder,cocofinder.com,people-search,https://www.cocofinder.com/remove-my-info,Web form (URL unconfirmed),Record URL + email,,,
+3,Social Catfish,socialcatfish.com,people-search,https://socialcatfish.com/opt-out/,Web form (file both Opt-Out and Deletion request types),URLs of pages showing the user; email,,,
+3,Veripages,veripages.com,people-search,https://veripages.com/inner/control-privacy,Web form + CAPTCHA + email,"Profile URL, name, email",,,
+3,ClustrMaps / PublicDataUSA / Neighbor.report,clustrmaps.com,people-search,https://clustrmaps.com/bl/opt-out,Web form,,,,Has been offline at times; recheck quarterly
+3,Whocalld,whocalld.com,caller-id,mailto:mail@whocalld.com,Email,Ask for the number's page to be removed,,,

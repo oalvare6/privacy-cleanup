@@ -1,0 +1,15 @@
+# Everything about the person being audited stays local
+output/*
+!output/README.md
+!output/.gitkeep
+
+# Local agent settings and scratch files
+.claude/settings.local.json
+.codex/
+*.local.*
+scratch/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
